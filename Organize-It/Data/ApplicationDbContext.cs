@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Organize_It.Models;
 
 namespace Organize_It.Data
 {
@@ -12,5 +13,6 @@ namespace Organize_It.Data
             : base(options)
         {
         }
+        public DbSet<Todo> todos { get; set; } // add new table in db
     }
 }

@@ -172,12 +172,13 @@ C:\Users\Tolda\source\repos\Organize-It\Organize-It\bin\Debug\netcoreapp3.1\ru\M
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.csproj.CoreCompileInputs.cache
-C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Create.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Delete.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Details.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Edit.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Index.cshtml.g.cs
 C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\_TodoTable.cshtml.g.cs
+C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.csproj.CoreCompileInputs.cache
+C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Organize-It.MvcApplicationPartsAssemblyInfo.cache

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,19 @@ namespace Organize_It.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _context.todos.ToListAsync());
+        }
+
+        private IQueryable<Todo> GetMyToDoes()
+        {
+            IdentityUser currentUser = _context.Users.Where(x => x.Email == User.Identity.Name).FirstOrDefault();// Nichlas: Get the currrent user
+            return _context.todos.Where(x => x.User == currentUser);
+        }
+        public ActionResult BuildToDoTable()
+        {
+            IdentityUser currentUser = _context.Users.Where(x => x.Email == User.Identity.Name).FirstOrDefault();// Nichlas: Get the currrent user
+
+            return PartialView(
+                "_ToDoTable", GetMyToDoes() /*_context.toDos.Where(x => x.User == currentUser)*/); // Nichlas: Only display the ToDoes made by the current user
         }
 
         // GET: Todoes/Details/5
@@ -58,6 +72,18 @@ namespace Organize_It.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Nichlas: Get the currrent user
+                IdentityUser currentUser = _context.Users.Where(x => x.Email == User.Identity.Name).FirstOrDefault();
+
+                if (currentUser != null)
+                {
+                    // Nichlas: Get the currrent users ID
+                    string currentUserId = _context.Users.Where(x => x.Email == User.Identity.Name).FirstOrDefault().Id;
+
+                    // make a reference to the current user in the ToDo model 
+                    todo.User = currentUser; // Nichlas
+                }
+
                 _context.Add(todo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

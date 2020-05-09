@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tolda\\source\\repos\\Organize-It\\Organize-It\\Organize-It.csproj": {}
+    "C:\\Users\\Tolda\\Source\\Repos\\Organize-It\\Organize-It\\Organize-It.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tolda\\source\\repos\\Organize-It\\Organize-It\\Organize-It.csproj": {
+    "C:\\Users\\Tolda\\Source\\Repos\\Organize-It\\Organize-It\\Organize-It.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tolda\\source\\repos\\Organize-It\\Organize-It\\Organize-It.csproj",
+        "projectUniqueName": "C:\\Users\\Tolda\\Source\\Repos\\Organize-It\\Organize-It\\Organize-It.csproj",
         "projectName": "Organize-It",
-        "projectPath": "C:\\Users\\Tolda\\source\\repos\\Organize-It\\Organize-It\\Organize-It.csproj",
+        "projectPath": "C:\\Users\\Tolda\\Source\\Repos\\Organize-It\\Organize-It\\Organize-It.csproj",
         "packagesPath": "C:\\Users\\Tolda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tolda\\source\\repos\\Organize-It\\Organize-It\\obj\\",
+        "outputPath": "C:\\Users\\Tolda\\Source\\Repos\\Organize-It\\Organize-It\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tolda\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -180,3 +180,4 @@ C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Details.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Edit.cshtml.g.cs
 C:\Users\Tolda\source\repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Index.cshtml.g.cs
+C:\Users\Tolda\Source\Repos\Organize-It\Organize-It\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\_TodoTable.cshtml.g.cs
